@@ -19,7 +19,6 @@ public class Main {
             System.out.println("Массив имеет неверный формат:" + e.getMessage());
         }
     }
-
     public static int countArraySum(String[][] array) throws MyArrayDataException, MyArraySizeException {
         if (array.length != 4) {
             throw new MyArraySizeException();
